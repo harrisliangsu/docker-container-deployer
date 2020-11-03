@@ -1,0 +1,12 @@
+[
+  {
+    "name": "eat-launch-service",
+    "alias": "els",
+    "mount": [
+      "/mount/service/eat-launch-service/logs:/eat-launch-service/logs",
+      "/mount/service/eat-launch-service/config:/eat-launch-service/config",
+      "/mount/service/eat-launch-service/tempData:/eat-launch-service/tempData"
+    ],
+    "dockerRepository": "nexus.company.com"
+  }
+]
